@@ -1,5 +1,12 @@
-| Item                 | Finding                    |
-| -------------------- | -------------------------- |
-| **Operating System** | Ubuntu 24.04.4 LTS         |
-| **Version**          | 24.04.4 LTS (Noble Numbat) |
-| **Version Codename** | noble                      |
+| Required Finding         | Actual Result                                                                              |
+| ------------------------ | ------------------------------------------------------------------------------------------ |
+| **Operating System**     | Ubuntu 24.04.4 LTS                                                                         |
+| **Kernel Version**       | 6.8.0-136-generic                                                                          |
+| **CPU Model**            | Intel Xeon E312xx (Sandy Bridge, IBRS update)                                              |
+| **Number of CPU Cores**  | 1                                                                                          |
+| **Total RAM**            | 1.9 GiB                                                                                    |
+| **Disk Capacity**        | 19 GB (`/dev/vda1`)                                                                        |
+| **Mounted File Systems** | `/`, `/boot`, `/boot/efi`, `/proc`, `/sys`, `/dev`, `/run`, and related system filesystems |
+| **Hostname**             | ubuntu                                                                                     |
+| **IP Address**           | 172.30.1.2, 172.17.0.1                                                                     |
+
