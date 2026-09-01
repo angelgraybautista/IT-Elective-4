@@ -31,6 +31,8 @@ The AWS Management Console is a web-based interface used to access and manage AW
 - Content delivery
 - Machine learning workloads
 
+## Evidence Screenshot
 
+![AWS Homepage](screenshots/aws-homepage.png)
 
 
