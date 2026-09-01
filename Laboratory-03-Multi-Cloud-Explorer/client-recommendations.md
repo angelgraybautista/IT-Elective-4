@@ -58,5 +58,3 @@ AWS is a strong choice for a global e-commerce company that needs highly availab
 | AI / Machine Learning | GCP | Strong AI/ML and data ecosystem. |
 | Kubernetes Deployment | GCP | GKE provides managed Kubernetes for scalable container workloads. |
 | Global Web Application | AWS | Broad global infrastructure and multi-AZ architecture support availability and scale. |
-
-> Review these recommendations against your own reasoning before submission and adjust them if your instructor expects a different decision.
