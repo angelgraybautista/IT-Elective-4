@@ -60,10 +60,3 @@ AWS is a strong choice for a global e-commerce company that needs highly availab
 | Global Web Application | AWS | Broad global infrastructure and multi-AZ architecture support availability and scale. |
 
 > Review these recommendations against your own reasoning before submission and adjust them if your instructor expects a different decision.
-
-## Sources
-- AWS Regions and Availability Zones: https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions-availability-zones.html
-- Azure Portal: https://learn.microsoft.com/en-us/azure/azure-portal/
-- Azure AKS: https://learn.microsoft.com/en-us/azure/aks/
-- Google Cloud locations: https://cloud.google.com/about/locations
-- Google Kubernetes Engine: https://cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview
