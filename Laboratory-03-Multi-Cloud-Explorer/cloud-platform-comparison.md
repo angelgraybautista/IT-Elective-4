@@ -47,7 +47,3 @@ Google Cloud is a strong choice for AI/ML and Kubernetes because of Google's exp
 | Kubernetes Deployment | GCP | GKE is a mature managed Kubernetes service based on Google's large-scale Kubernetes experience. |
 | Global Web Application | AWS | Broad global infrastructure and multiple Availability Zones support highly available applications. |
 
-## Sources
-- AWS global infrastructure: https://aws.amazon.com/about-aws/global-infrastructure/regions_az/
-- Azure global infrastructure: https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table
-- Google Cloud locations: https://cloud.google.com/about/locations
