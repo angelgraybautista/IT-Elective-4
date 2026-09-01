@@ -33,4 +33,4 @@ The Azure portal is a web-based unified console for managing Azure subscriptions
 
 ## Evidence Screenshot
 
-![Azure screenshot](screenshots/azure-homepage.png)
+![Azure screenshot](screenshot/azure-homepage.png)
