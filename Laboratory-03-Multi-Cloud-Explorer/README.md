@@ -1,7 +1,6 @@
-
 ## Checkpoint 7 – Linux Investigation
 
-Run these commands in the KillerCoda Linux playground:
+Run the following commands in the KillerCoda Linux playground:
 
 ```bash
 cat /etc/os-release
@@ -12,102 +11,52 @@ df -h
 
 ### My Linux Server Information
 
-> Replace the placeholders below with the actual output from your KillerCoda terminal. Do not invent these values.
+* **Operating System:** Ubuntu 24.04.4 LTS (Noble Numbat)
 
-- **Operating System:** `[PRETTY_NAME="Ubuntu 24.04.4 LTS"
-NAME="Ubuntu"
-VERSION_ID="24.04"
-VERSION="24.04.4 LTS (Noble Numbat)"
-VERSION_CODENAME=noble
-ID=ubuntu
-ID_LIKE=debian
-HOME_URL="https://www.ubuntu.com/"
-SUPPORT_URL="https://help.ubuntu.com/"
-BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-UBUNTU_CODENAME=noble
-LOGO=ubuntu-logo]`
-- **CPU Information:** `[Architecture:                x86_64
-  CPU op-mode(s):            32-bit, 64-bit
-  Address sizes:             39 bits physical, 48 bits virtual
-  Byte Order:                Little Endian
-CPU(s):                      1
-  On-line CPU(s) list:       0
-Vendor ID:                   GenuineIntel
-  BIOS Vendor ID:            Red Hat
-  Model name:                Intel Xeon E312xx (Sandy Bridge, IBRS update)
-    BIOS Model name:         RHEL-9.6.0 PC (Q35 + ICH9, 2009)  CPU @ 2.0GHz
-    BIOS CPU family:         1
-    CPU family:              6
-    Model:                   42
-    Thread(s) per core:      1
-    Core(s) per socket:      1
-    Socket(s):               1
-    Stepping:                1
-    BogoMIPS:                7008.00
-    Flags:                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov p
-                             at pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constan
-                             t_tsc rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqd
-                             q ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_time
-                             r aes xsave avx hypervisor lahf_lm cpuid_fault pti ssbd ibrs ib
-                             pb stibp tsc_adjust xsaveopt arat md_clear
-Virtualization features:     
-  Hypervisor vendor:         KVM
-  Virtualization type:       full
-Caches (sum of all):         
-  L1d:                       32 KiB (1 instance)
-  L1i:                       32 KiB (1 instance)
-  L2:                        4 MiB (1 instance)
-  L3:                        16 MiB (1 instance)
-NUMA:                        
-  NUMA node(s):              1
-  NUMA node0 CPU(s):         0
-Vulnerabilities:             
-  Gather data sampling:      Not affected
-  Indirect target selection: Mitigation; Aligned branch/return thunks
-  Itlb multihit:             KVM: Mitigation: VMX unsupported
-  L1tf:                      Mitigation; PTE Inversion
-  Mds:                       Mitigation; Clear CPU buffers; SMT Host state unknown
-  Meltdown:                  Mitigation; PTI
-  Mmio stale data:           Unknown: No mitigations
-  Reg file data sampling:    Not affected
-  Retbleed:                  Not affected
-  Spec rstack overflow:      Not affected
-  Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
-  Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitiz
-                             ation
-  Spectre v2:                Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP disabl
-                             ed; RSB filling; PBRSB-eIBRS Not affected; BHI Retpoline
-  Srbds:                     Not affected
-  Tsa:                       Not affected
-  Tsx async abort:           Not affected
-  Vmscape:                   Not affected]`
-- **Memory:** `[          total        used        free      shared  buff/cache   available
-Mem:           1.9Gi       422Mi       832Mi       1.1Mi       817Mi       1.4Gi
-Swap:          1.0Gi          0B       1.0Gi]`
-- **Disk Space:** `[Filesystem      Size  Used Avail Use% Mounted on
-tmpfs           191M  996K  190M   1% /run
-/dev/vda1        19G  5.4G   13G  30% /
-tmpfs           952M   84K  952M   1% /dev/shm
-tmpfs           5.0M     0  5.0M   0% /run/lock
-/dev/vda16      881M  117M  703M  15% /boot
-/dev/vda15      105M  6.2M   99M   6% /boot/efi]`
+* **CPU Information:**
+
+  * Architecture: x86_64
+  * CPU(s): 1
+  * Vendor: GenuineIntel
+  * Model: Intel Xeon E312xx (Sandy Bridge, IBRS update)
+  * Core(s) per socket: 1
+  * Thread(s) per core: 1
+  * Hypervisor: KVM
+
+* **Memory:**
+
+  * Total: 1.9 GiB
+  * Used: 422 MiB
+  * Free: 832 MiB
+  * Available: 1.4 GiB
+  * Swap: 1.0 GiB
+
+* **Disk Space:**
+
+  * Main disk (`/dev/vda1`): 19 GiB total
+  * Used: 5.4 GiB
+  * Available: 13 GiB
+  * Usage: 30%
+  * Boot partition (`/dev/vda16`): 881 MiB
+  * EFI partition (`/dev/vda15`): 105 MiB
 
 ### Cloud Services That Could Host This Linux Server
 
-| Provider | Service |
-|---|---|
-| AWS | Amazon EC2 |
-| Azure | Azure Virtual Machines |
-| GCP | Compute Engine |
+| Provider | Service                |
+| -------- | ---------------------- |
+| AWS      | Amazon EC2             |
+| Azure    | Azure Virtual Machines |
+| GCP      | Google Compute Engine  |
 
-These services provide virtual-machine infrastructure that can run Linux workloads. The exact VM size, operating system image, region, storage, and networking configuration should be selected according to the server's actual requirements.
+These services provide virtual-machine infrastructure that can run Linux workloads. The appropriate VM size, operating system image, storage, region, and networking configuration would depend on the server's requirements.
 
 ## Evidence
-Insert the terminal screenshot here:
 
-`![KillerCoda terminal](screenshots/killercoda-terminal.png)`
+### KillerCoda Terminal Screenshot
 
-Insert the GitHub repository screenshot here:
+![KillerCoda terminal](screenshot/killercoda-terminal1.png)
+![KillerCoda terminal](screenshot/killercoda-terminal.png)
 
-`![GitHub repository](screenshots/github-repository.png)`
+### GitHub Repository Screenshot
+
+![GitHub repository](screenshot/github-repository.png)
