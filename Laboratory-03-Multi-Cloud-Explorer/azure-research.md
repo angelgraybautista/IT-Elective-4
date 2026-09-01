@@ -32,11 +32,5 @@ The Azure portal is a web-based unified console for managing Azure subscriptions
 - AI and machine learning
 
 ## Evidence Screenshot
-Add your own official Azure homepage or Azure portal screenshot:
 
 `![Azure screenshot](screenshots/azure-homepage.png)`
-
-## Sources
-- Azure Portal documentation: https://learn.microsoft.com/en-us/azure/azure-portal/
-- Azure product availability by region: https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table
-- Azure Kubernetes Service: https://learn.microsoft.com/en-us/azure/aks/
