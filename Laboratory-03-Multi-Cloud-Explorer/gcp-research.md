@@ -32,11 +32,5 @@ The Google Cloud console is the web interface for managing Google Cloud projects
 - Global services
 
 ## Evidence Screenshot
-Add your own official Google Cloud homepage or console screenshot:
 
-`![GCP screenshot](screenshots/gcp-homepage.png)`
-
-## Sources
-- Google Cloud global locations: https://cloud.google.com/about/locations
-- Google Kubernetes Engine overview: https://cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview
-- Google Cloud IAM: https://cloud.google.com/iam/docs/overview
+![GCP screenshot](screenshot/gcp-homepage.png)
