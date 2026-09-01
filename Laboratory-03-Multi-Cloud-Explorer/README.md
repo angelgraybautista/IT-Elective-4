@@ -1,24 +1,3 @@
-# Laboratory 03 – Multi-Cloud Explorer
-
-**Course:** CCM101 – Cloud Computing  
-**Mission:** Mission 3 – Become a Multi-Cloud Explorer
-
-## Overview
-This laboratory evaluates Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP), compares equivalent cloud services, recommends platforms for different business scenarios, and relates a Linux server to cloud virtual-machine services.
-
-## Repository Checklist
-- [ ] `README.md`
-- [ ] `aws-research.md`
-- [ ] `azure-research.md`
-- [ ] `gcp-research.md`
-- [ ] `cloud-platform-comparison.md`
-- [ ] `client-recommendations.md`
-- [ ] `reflection.md`
-- [ ] `screenshots/aws-homepage.png`
-- [ ] `screenshots/azure-homepage.png`
-- [ ] `screenshots/gcp-homepage.png`
-- [ ] `screenshots/killercoda-terminal.png`
-- [ ] `screenshots/github-repository.png`
 
 ## Checkpoint 7 – Linux Investigation
 
