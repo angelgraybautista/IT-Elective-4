@@ -33,6 +33,6 @@ The AWS Management Console is a web-based interface used to access and manage AW
 
 ## Evidence Screenshot
 
-![AWS Homepage](screenshots/aws-homepage.png)
+![AWS Homepage](screenshot/aws-homepage.png)
 
 
