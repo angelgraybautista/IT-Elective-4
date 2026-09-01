@@ -31,12 +31,6 @@ The AWS Management Console is a web-based interface used to access and manage AW
 - Content delivery
 - Machine learning workloads
 
-## Evidence Screenshot
-Add your own official AWS homepage or AWS Management Console screenshot:
 
-`![AWS screenshot](screenshots/aws-homepage.png)`
 
-## Sources
-- AWS Regions and Availability Zones: https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions-availability-zones.html
-- AWS Management Console: https://docs.aws.amazon.com/awsconsolehelpdocs/
-- AWS Global Infrastructure: https://aws.amazon.com/about-aws/global-infrastructure/regions_az/
+
